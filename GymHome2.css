@@ -1,0 +1,73 @@
+header
+{
+    height: 150px; 
+    border: 5px solid black;
+    background-color: brown;
+    color: aliceblue;
+    margin-left:20px;
+    margin-right: 20px; 
+    padding: 10px 10px; 
+    text-align: center;
+    font-size: 3em;
+    font-weight: bolder;
+}
+
+body
+{
+    background-image: radial-gradient(circle, black, rgb(75, 75, 75));
+    color: aliceblue;
+    font-size: 2em;
+    font-weight: bold;
+    justify-content: center;
+}
+
+table, td, tr
+{
+    border: 5px solid white;
+    border-collapse: collapse;
+    width: 60%;
+    text-align: center;
+    margin-left: 20%;
+}
+
+th
+{
+    padding: 20px 20px;
+}
+
+td
+{
+    padding: 15px;
+}
+
+tr:hover 
+{
+    background-color: blue;
+}
+
+/* CSS for buttons */
+.button {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+.button:hover {
+    background-color: #45a049;
+}
+
+/* Additional styling for the update and delete buttons */
+.update-button {
+    background-color: #008CBA; /* Blue */
+}
+
+.delete-button {
+    background-color: #f44336; /* Red */
+}
