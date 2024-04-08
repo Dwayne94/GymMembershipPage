@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang = "en">
+    <head>
+        <meta charset = "UTF-8">
+        <meta name = "viewport" content = "width=device-width, initial-scale=1.0">
+        <title>Wayne Fitness Home</title>
+        <link rel = "stylesheet" href = "GymHome1.css">
+    </head>
+    <body>
+        <header>
+            <img src = "GymLogoImage2.jpg" id = "image2" alt = "gymlogo">
+            <h1>Wayne Fitness</h1>
+        </header>
+        <div class = "container">
+            <main>
+                <section class = "section1">
+                    <section class = "sectiona">
+                        <h2>MEMBERSHIPS</h2>
+                        <p>
+                            We offer the WF Black Card Membership and Classic Membership. Both get you access to The Judgement Free Zone, 
+                            and tons of cardio and strength equipment.
+
+                            Classic memberships begin at $15 and WF Black Card memberships begin at $29.99, billed monthly to a chequing 
+                            account. Memberships may include 12-month commitment. Taxes extra. Subject to an annual fee of $49. Prices may 
+                            vary depending on location. Must be at least 18 years or the age of majority in the applicable jurisdiction to 
+                            enroll, or under the age of majority with parent/guardian. Participating Canada locations only. Locations 
+                            independently owned and operated. See club for details. We reserve the right to correct pricing errors or 
+                            withdraw offer at any time. ©2024 Wayne Fitness Franchising LLC.
+                        </p>
+                        <form action = "GymHome2.php" method = "post">
+                            <fieldset>
+                                <legend>New Member Login</legend>
+                                <label>First Name</label>
+                                <input type = "text" id = "fn" name = "fname" placeholder = "First Name" required>
+                                <label>Last Name</label>
+                                <input type = "text" id = "ln" name = "lname" placeholder = "Last Name" required>
+                                <br><br>
+                                <label>Date of Birth</label>
+                                <input type = "date" id = "dob" name = "birthdate" placeholder = "Date of Birth" required>
+                                <br><br>
+                                <label>Gender</label>
+                                <select type = "dropdown" id = "gen" name = "sex">
+                                    <option>Select Gender</option>
+                                    <option>Male</option>
+                                    <option>Female</option>
+                                    <option>LGBTQ</option>
+                                </select>
+                                <br><br>
+                                <label>Membership Type</label>
+                                <select type = "dropdown" name = "membertype" required>
+                                    <option>Select Membership</option>
+                                    <option>WF Black Card</option>
+                                    <option>Classic</option>
+                                </select>
+                                <br><br>
+                                <label>Email</label>
+                                <input type = "email" id = "em" name = "email" placeholder = "Email" required>
+                                <label>Username</label>
+                                <input type = "text" id = "un" name = "uname" placeholder = "Username" required>
+                                <label>Password</label>
+                                <input type = "text" id = "pwd" name = "pword" placeholder = "Password" required>
+                                <br><br>
+                                <button type = "submit">Submit</button>
+                                <button type = "reset">Cancel</button>
+                            </fieldset>
+                        </form>
+                        <br><br>
+                        <form>
+                            <fieldset>
+                                <legend>Existing User Login</legend>
+                                <label>Username</label>
+                                <input type = "text" id = "un" name = "uname" placeholder = "Username" required>
+                                <label>Password</label>
+                                <input type = "text" id = "pwd" name = "pword" placeholder = "Password" required>
+                                <br><br>
+                                <button type = "submit">Login</button>
+                                <button type = "reset">Cancel</button>
+                            </fieldset>
+                        </form>
+                    </section>
+                    <section class = "sectionb">
+                        <figure>
+                            <img src = "..//Assignment02/GymImage1.jpg" id = "image1" alt = "gymformimage1">
+                            <figcaption>Open 24/7</figcaption>
+                        </figure>
+                    </section>
+                </section>
+            </main>
+        </div>
+    </body>
+    <br>
+    <footer>
+        <h2>THE BEST VALUE ON THE PLANET</h2>
+        <p>
+            We know that finding a gym can be stressful. That's why we want to make it as easy and affordable as possible to come in and 
+            give our Judgement Free Zone® a try.
+
+            Our gym branches are located throughout the GTA Area and expanding every year. Feel free to contact us at 647-808-7694 or at 
+            <a href = "https://www.goldsgym.com/">waynefitness.ca</a>
+        </p>
+    </footer>
+</html>
